@@ -1,0 +1,353 @@
+{
+  "Cursos": {
+    "Bacharelado em Ciência da Computação": {
+      "Matriz Curricular": {
+        "2017": {
+          "Período": {
+            "1": [
+              {
+                "1_IP": {
+                  "Nome": "Introdução à Programação",
+                  "Carga horária": 128,
+                  "Pré-requisitos": []
+                }
+              },
+              {
+                "1_CP": {
+                  "Nome": "Computação e Sociedade",
+                  "Carga horária": 32,
+                  "Pré-requisitos": []
+                }
+              },
+              {
+                "1_C1A": {
+                  "Nome": "Cálculo 1A",
+                  "Carga horária": 96,
+                  "Pré-requisitos": []
+                }
+              },
+              {
+                "1_FMC": {
+                  "Nome": "Fundamentos de Matemática para Computação",
+                  "Carga horária": 64,
+                  "Pré-requisitos": []
+                }
+              }
+            ],
+            "2": [
+              {
+                "2_AED1": {
+                  "Nome": "Algoritmos e Estruturas de Dados 1",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_IP"
+                  ]
+                }
+              },
+              {
+                "2_GA": {
+                  "Nome": "Geometria Analítica",
+                  "Carga horária": 64,
+                  "Pré-requisitos": []
+                }
+              },
+              {
+                "2_C2A": {
+                  "Nome": "Cálculo 2A",
+                  "Carga horária": 96,
+                  "Pré-requisitos": [
+                    "1_C1A"
+                  ]
+                }
+              },
+              {
+                "2_FI": {
+                  "Nome": "Física I",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_C1A"
+                  ]
+                }
+              },
+              {
+                "2_LM": {
+                  "Nome": "Lógica Matemática",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_FMC"
+                  ]
+                }
+              }
+            ],
+            "3": [
+              {
+                "3_FIII": {
+                  "Nome": "Física III",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_FI"
+                  ]
+                },
+                "3_AL": {
+                  "Nome": "Álgebra Linear",
+                  "Carga horária": 64,
+                  "Pré-requisitos": []
+                },
+                "3_PEA": {
+                  "Nome": "Probabilidade e Estatística A",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_C1A"
+                  ]
+                },
+                "3_AED2": {
+                  "Nome": "Algoritmos e Estruturas de Dados 2",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_AED1"
+                  ]
+                },
+                "3_MPC": {
+                  "Nome": "Metodologia de Pesquisa em Computação",
+                  "Carga horária": 32,
+                  "Pré-requisitos": []
+                },
+                "3_MD": {
+                  "Nome": "Matemática Discreta",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_FMC"
+                  ]
+                }
+              }
+            ],
+            "4": [
+              {
+                "4_CD": {
+                  "Nome": "Circuitos Digitais",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_FMC"
+                  ]
+                },
+                "4_EDO": {
+                  "Nome": "Equações Diferenciais Ordinárias",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_C2A",
+                    "3_AL"
+                  ]
+                },
+                "4_POO": {
+                  "Nome": "Programação Orientada a Objetos",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_IP"
+                  ]
+                },
+                "4_PO": {
+                  "Nome": "Pesquisa Operacional",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "3_AL"
+                  ]
+                },
+                "4_TG": {
+                  "Nome": "Teoria dos Grafos",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "3_MD"
+                  ]
+                }
+              }
+            ],
+            "5": [
+              {
+                "5_EC": {
+                  "Nome": "Eletrônica para Computação",
+                  "Carga horária": 96,
+                  "Pré-requisitos": [
+                    "3_FIII"
+                  ]
+                },
+                "5_CN": {
+                  "Nome": "Cálculo Numérico",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "4_EDO"
+                  ]
+                },
+                "5_APA": {
+                  "Nome": "Análise e Projeto de Algoritmos",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_FMC",
+                    "3_AED2"
+                  ]
+                },
+                "5_AC": {
+                  "Nome": "Arquitetura de Computadores",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_FMC"
+                  ]
+                },
+                "5_SB": {
+                  "Nome": "Software Básico",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_AED1"
+                  ]
+                }
+              }
+            ],
+            "6": [
+              {
+                "6_BD": {
+                  "Nome": "Banco de Dados",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_LM"
+                  ]
+                },
+                "6_ES": {
+                  "Nome": "Engenharia de Software",
+                  "Carga horária": 64,
+                  "Pré-requisitos": []
+                },
+                "6_LPP": {
+                  "Nome": "Linguagens e Paradigmas de Programação",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_IP"
+                  ]
+                },
+                "6_LFA": {
+                  "Nome": "Linguagens formais e autômatos",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "1_FMC"
+                  ]
+                },
+                "6_SO": {
+                  "Nome": "Sistemas Operacionais",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_AED1",
+                    "5_AC"
+                  ]
+                }
+              }
+            ],
+            "7": [
+              {
+                "7_ICCC": {
+                  "Nome": "Introdução à Computabilidade e à Complexidade Computacional",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "5_APA",
+                    "6_LFA"
+                  ]
+                },
+                "7_ER": {
+                  "Nome": "Engenharia de Requisitos",
+                  "Carga horária": 64,
+                  "Pré-requisitos": []
+                },
+                "7_SGBD": {
+                  "Nome": "Sistemas Gerenciadores de Banco de Dados",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "6_BD"
+                  ]
+                },
+                "7_RC1": {
+                  "Nome": "Redes de Computadores 1",
+                  "Carga horária": 64,
+                  "Pré-requisitos": []
+                }
+              }
+            ],
+            "8": [
+              {
+                "8_PFC1": {
+                  "Nome": "Projeto Final de Curso 1",
+                  "Carga horária": 64,
+                  "Pré-requisitos": []
+                },
+                "8_PS": {
+                  "Nome": "Projeto de Software",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "4_POO",
+                    "6_ES"
+                  ]
+                },
+                "8_CG": {
+                  "Nome": "Computação Gráfica",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_GA"
+                  ]
+                },
+                "8_IA": {
+                  "Nome": "Inteligência Artificial",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_AED1",
+                    "2_LM",
+                    "3_PEA"
+                  ]
+                },
+                "8_SD": {
+                  "Nome": "Sistemas Distribuídos",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "7_RC1"
+                  ]
+                }
+              }
+            ],
+            "9": [
+              {
+                "9_PFC2": {
+                  "Nome": "Projeto Final de Curso 2",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "8_PFC1"
+                  ]
+                },
+                "9_IHC": {
+                  "Nome": "Interação Humano-Computador",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "2_AED1",
+                    "3_PEA"
+                  ]
+                },
+                "9_C": {
+                  "Nome": "Compiladores",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "3_AED2",
+                    "6_LFA"
+                  ]
+                },
+                "9_CP": {
+                  "Nome": "Computação Paralela",
+                  "Carga horária": 64,
+                  "Pré-requisitos": [
+                    "8_SD"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "2024": {}
+      }
+    },
+    "Bacharelado em Física": {},
+    "Licenciatura em Física": {}
+  }
+}
